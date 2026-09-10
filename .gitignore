@@ -1,0 +1,14 @@
+node_modules
+.env
+.env.*
+!.env.example
+
+# Secrets / service accounts (kept on disk, never committed)
+config/*firebase*adminsdk*.json
+utils/*firebase*adminsdk*.json
+utils/google-services.json
+
+# Runtime artifacts
+undefined/
+public/uploads/
+*.log

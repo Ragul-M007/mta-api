@@ -1,0 +1,8 @@
+server{
+listen 4500;
+root /var/www/html/mta-admin/dist/superadmin;
+index index.html index.htm index.nginx-debain.html;
+location / {
+try_files $uri $uri/ /index.html;
+}
+}
