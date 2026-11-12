@@ -12,3 +12,6 @@ utils/google-services.json
 undefined/
 public/uploads/
 *.log
+
+# Claude Code guidance (kept local, not tracked)
+CLAUDE.md
